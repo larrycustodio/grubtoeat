@@ -8,6 +8,27 @@
  * Made By MaterializeCSS.com
  */
 
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../fonts/sofia_pro_regular-webfont.woff2') format('woff2'),
+    url('../fonts/sofia_pro_regular-webfont.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Sofia Pro Semi Bold';
+    src: url('../fonts/sofia_pro_semi_bold-webfont.woff2') format('woff2'), 
+    url('../fonts/sofia_pro_semi_bold-webfont.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'Sofia Pro Bold';
+    src: url('../fonts/sofia_pro_bold-webfont.woff2') format('woff2'),
+    url('../fonts/sofia_pro_bold-webfont.woff') format('woff')
+}
+
+body {
+    font-family: 'Sofia Pro', 'Helvetica Neue', sans-serif;
+}
 nav {
     height: 80px;
 }
@@ -19,11 +40,15 @@ nav .brand-logo {
 
 .nav-wrapper {
     padding: 0.5rem 2rem;
-    @media all and (min-width: 768px) {
-        padding: 0.5rem 6rem;
-    }
 }
 
+@media all and (min-width: 768px) {
+    padding: 0.5rem 6rem;
+}
+
+.header-overlay {
+    background-color:rgba(99, 99, 99, 0.55);
+}
 p {
     line-height: 2rem;
 }
