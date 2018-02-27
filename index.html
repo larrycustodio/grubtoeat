@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Grub To Eat - Order Takeout!</title>
+    <link rel="shortcut icon" href="favicon.ico">
     <!-- Animate CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
         crossorigin="anonymous">
@@ -13,11 +14,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!--Custom Stylesheet -->
-    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
     <nav class="transparent" role="navigation">
         <div class="nav-wrapper">
             <a id="logo-container" href="#" class="brand-logo">Grub2Eat</a>
@@ -67,7 +66,7 @@
             </div>
         </div>
         <div class="parallax">
-            <img src="img/background1.jpg" alt="Unsplashed background img 1">
+            <img src="/public/img/background1.jpg" alt="Unsplashed background img 1">
         </div>
     </div>
 
@@ -119,7 +118,6 @@
         </div>
     </div>
 
-
     <div class="parallax-container valign-wrapper">
         <div class="section no-pad-bot">
             <div class="container">
@@ -129,7 +127,7 @@
             </div>
         </div>
         <div class="parallax">
-            <img src="img/background2.jpg" alt="Unsplashed background img 2">
+            <img src="/public/img/background2.jpg" alt="Unsplashed background img 2">
         </div>
     </div>
 
@@ -155,7 +153,6 @@
         </div>
     </div>
 
-
     <div class="parallax-container valign-wrapper">
         <div class="section no-pad-bot">
             <div class="container">
@@ -165,9 +162,11 @@
             </div>
         </div>
         <div class="parallax">
-            <img src="img/background3.jpg" alt="Unsplashed background img 3">
+            <img src="/public/img/background3.jpg" alt="Unsplashed background img 3">
         </div>
     </div>
+
+    <div id="app"></div>
 
     <footer class="page-footer blue-grey darken-2">
         <div class="container">
@@ -220,7 +219,8 @@
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <!-- Custom script -->
-    <script src="js/script.js"></script>
+    <script src="/assets/vendors.js"></script>
+    <script src="/assets/app.js"></script>
 </body>
 
 </html>

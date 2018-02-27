@@ -2,8 +2,8 @@ const express = require("express");
 const app = express();
 const path = require("path");
 
-app.use(express.static("public"));
-app.use(express.static("src"));
+app.use("/public", express.static(__dirname + "/../public"));
+app.use("/assets", express.static(__dirname + "/../dist"));
 
 app.get("/", (req,res)=>{
     const index = path.join(__dirname, '/../index.html');
