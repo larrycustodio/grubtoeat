@@ -19,7 +19,7 @@ nav .brand-logo {
 
 .nav-wrapper {
     padding: 0.5rem 2rem;
-    @media screen and (min-width: 768px) {
+    @media all and (min-width: 768px) {
         padding: 0.5rem 6rem;
     }
 }
